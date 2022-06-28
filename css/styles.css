@@ -40,6 +40,10 @@ img {
     height: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 body {
     color: var(--main-color);
@@ -96,7 +100,7 @@ body {
 .header {
     padding: 24px 0;
     border-bottom: 1px solid #ECECEC;
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -624,6 +628,7 @@ body {
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--section-color);
+    text-decoration: none;
 }
 
 .portfolio-card-item {
@@ -631,6 +636,7 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    text-decoration: none;
 
 }
 
@@ -679,7 +685,7 @@ body {
 
 .portfolio-list-item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    
+
 }
 
 .portfolio-list-text {
