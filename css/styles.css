@@ -591,8 +591,7 @@ body {
     height: 100%;
     width: 100%;
     border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding: 16px 32px;
+    border-radius: 4px;    
     display: flex;
     align-items: center;
     justify-content: center;
